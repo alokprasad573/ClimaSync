@@ -7,7 +7,7 @@ export default function WeatherDeatils() {
     const weather = weatherData?.current || {};
     
     return (
-        <div className='bg-[rgba(255,255,255,0.1)] text-white p-4 mx-[8rem] my-[5rem] w-[50vw] rounded-lg'>
+        <div className='bg-[rgba(255,255,255,0.1)] text-white p-4 mx-[8rem] my-[5rem] w-[70vw] rounded-lg'>
             <h1 className='underline text-2xl'>Weather</h1>
             <ul className='my-4 gap-5'>
                 <li className="flex flex-row justify-between">
